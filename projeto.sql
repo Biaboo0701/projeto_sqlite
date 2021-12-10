@@ -53,7 +53,7 @@ INNER JOIN cursos ON (
     cursos_req.cursos_id = cursos.cursos_id   
 );
 
---Consultando quantas vezes cada re:
+--Consultando todos os id requisitos do id 7:
 SELECT * FROM cursos_req WHERE cursos_req.cursos_id = 7;
 
 --Listando todos os ids de requisição e seus respectivos id cursos:
